@@ -17,7 +17,7 @@
 
 Bike Share Project
 
-### Instructions
+#### Instructions
 
 - Make sure to have the following files in the same path as the [bikeshare.py](./bikeshare.py).
   - chicago.csv
@@ -25,15 +25,15 @@ Bike Share Project
   - new_york_city.csv
 - Run the [bikeshare.py](./bikeshare.py)
 
-### Date created
+#### Date created
 
 1 Oct 2019
 
-### Description
+#### Description
 
 > [Bikeshare.py](./bikeshare.py) analyzes data of the shared bikes across 3 major cities, and give useful incites about the bikeshare system. The program ask users for input and uses filters to give more relevant data to the user.
 
-### Files used
+#### Files used
 
 - chicago.csv
 
@@ -46,7 +46,7 @@ Bike Share Project
 - Mohammed Alhussaini
   - [https://github.com/MAlhussaini](https://github.com/MAlhussaini)
 
-### How do I contribute?
+#### How do I contribute?
 
 We'd love help writing audits, fixing bugs, and making the tool more useful!
 See [Contributing](./CONTRIBUTING.md) to get started.
