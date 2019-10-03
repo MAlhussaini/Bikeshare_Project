@@ -263,7 +263,7 @@ def general_info(df):
     print('Most Popular month for traveling:', popular_month)
 
 
-def sample_table(table_name = '', df = pd.DataFrame()):
+def sample_table(table_name='', df=pd.DataFrame()):
     ''' Print 5 rows at a time and wait for user inputs. When the user asks for more results, print the next five lines.\n
     Args:\n
     (str) table_name: name of the table.
@@ -280,13 +280,14 @@ def sample_table(table_name = '', df = pd.DataFrame()):
     yes_no_dict = {"y": "yes", "yes": "yes", "no": "no", "n": "no"}
     # Ask the user for an input from a multiple choice (yes or no).
     table = input_validation(yes_no_dict,
-                                "\nWould you like to see a sample of the city data %s table? Enter Yes or No."%(table_name))
-    while table == "yes": # it wouldn't leave till the user is satisfied by saying "No" more lol ;)
+                             "\nWould you like to see a sample of the city data %s table? Enter Yes or No." % (table_name))
+    while table == "yes":  # it wouldn't leave till the user is satisfied by saying "No" more lol ;)
         print(df.head(row_num))
         # Increment the sample row number by 5.
         row_num += 5
         # Ask the user for an input from a multiple choice (yes or no).
-        table = input_validation(yes_no_dict, "\nWould you like to show more rows of this sample? Enter Yes or No.")
+        table = input_validation(
+            yes_no_dict, "\nWould you like to show more rows of this sample? Enter Yes or No.")
 
 
 def main(df):
@@ -320,5 +321,8 @@ if __name__ == '__main__':
         if restart.lower() != 'yes' and restart.lower() != 'y':
             break
 
+    message = 'Rate your experience from 1 to 5:\n(1 being "So bad", and 5 being "The best")'
+    rating = input_validation(str([1, 2, 3, 4, 5]), message)
+    print("\n\nThank you for your rating.\n\n")
 
 logging.info('End of the program')
