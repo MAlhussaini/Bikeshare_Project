@@ -1,6 +1,6 @@
-# [BikeShare.py]()
+# [BikeShare.py](./bikeshare.py)
 
-> [Bikeshare.py]() analyzes data of the shared bikes across 3 major cities, and give useful incites about the bikeshare system. The program ask users for input and uses filters to give more relevant data to the user.
+> [Bikeshare.py](./bikeshare.py) analyzes data of the shared bikes across 3 major cities, and give useful incites about the bikeshare system. The program ask users for input and uses filters to give more relevant data to the user.
 
 ## Table of Contents
 
@@ -19,11 +19,11 @@ Bike Share Project
 
 ### Instructions
 
-- Make sure to have the following files in the same path as the bikeshare.py.
+- Make sure to have the following files in the same path as the [bikeshare.py](./bikeshare.py).
   - chicago.csv
   - washington.csv
   - new_york_city.csv
-- Run the bikeshare.py
+- Run the [bikeshare.py](./bikeshare.py)
 
 ### Date created
 
@@ -31,7 +31,7 @@ Bike Share Project
 
 ### Description
 
-> [Bikeshare.py]() analyzes data of the shared bikes across 3 major cities, and give useful incites about the bikeshare system. The program ask users for input and uses filters to give more relevant data to the user.
+> [Bikeshare.py](./bikeshare.py) analyzes data of the shared bikes across 3 major cities, and give useful incites about the bikeshare system. The program ask users for input and uses filters to give more relevant data to the user.
 
 ### Files used
 
