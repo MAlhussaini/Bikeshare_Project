@@ -323,6 +323,9 @@ if __name__ == '__main__':
 
     message = 'Rate your experience from 1 to 5:\n(1 being "So bad", and 5 being "The best")'
     rating = input_validation(str([1, 2, 3, 4, 5]), message)
-    print("\n\nThank you for your rating.\n\n")
+    ratings = {"1": "SO BAD (-_-)", "2": "NOT SO GOOD :d",
+               "3": "OK :/", "4": "AWESOME (^_-)", "5": "THE BEST! (^O^)"}
+    print("\n\n\n\nThank you for your rating.\n We also find you %s\n\n\n\n" %
+          (ratings[rating]))
 
 logging.info('End of the program')
