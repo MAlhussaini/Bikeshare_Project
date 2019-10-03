@@ -328,4 +328,13 @@ if __name__ == '__main__':
     print("\n\n\n\nThank you for your rating.\n We also find you %s\n\n\n\n" %
           (ratings[rating]))
 
+    feedback = str(input("How can we improve?\n"))
+    no_feedback = ["close", "cancel", "q", "exit", "quit", ""]
+    if feedback not in no_feedback:
+        feed_txt = open("FEEDBACK.txt", "a")
+        feed_txt.write(feedback+"\n")
+        feed_txt.close()
+        logging.debug("User review has been saved in FEEDBACK.txt")
+    print("\n\nThank you for your feedback!\n\n")
+
 logging.info('End of the program')
